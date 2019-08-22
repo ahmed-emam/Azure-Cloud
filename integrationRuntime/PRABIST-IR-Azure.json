@@ -1,0 +1,6 @@
+{
+	"name": "PRABIST-IR-Azure",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

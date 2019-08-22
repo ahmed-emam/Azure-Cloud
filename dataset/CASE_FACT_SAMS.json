@@ -1,0 +1,16 @@
+{
+	"name": "CASE_FACT_SAMS",
+	"properties": {
+		"description": "Connect to your data destination store.",
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"typeProperties": {
+			"tableName": "[dbo].[CASE_FACT_SAMS]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

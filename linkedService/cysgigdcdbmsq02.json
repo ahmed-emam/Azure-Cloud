@@ -1,0 +1,16 @@
+{
+	"name": "cysgigdcdbmsq02",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=cysgigdcdbmsq02.cihs.ad.gov.on.ca;initial catalog=TESTBBB;user id=WuYi1",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMzc0OTY2YS1lOGE0LTRjYTAtYTliOS1jMjQ4M2FjYzczZTEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "PRABIST-IR-Azure",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
